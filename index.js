@@ -13,8 +13,7 @@ function realizarCuenta(operacion) {
 	switch (operacion) {
 		case 1:
 			resultado = A + B;
-			console.resultado = [];
-			console.log (resultado)
+			alert(resultado);
 			break;
 		case 2:
 			resultado = A - B;
@@ -30,6 +29,8 @@ function realizarCuenta(operacion) {
 			break;
 	}
 }
+
+
 
 while (operacion != 5) {
 	realizarCuenta(operacion);
